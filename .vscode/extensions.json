@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "redhat.vscode-yaml",
+        "tamasfe.even-better-toml",
+        "charliermarsh.ruff",
+        "njpwerner.autodocstring",
+        "sanjulaganepola.github-local-actions",
+        "editorconfig.editorconfig"
+    ]
+}

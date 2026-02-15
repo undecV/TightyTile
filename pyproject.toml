@@ -1,0 +1,20 @@
+[project]
+name = "tighty-tile"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [{ name = "undecV", email = "user@example.com" }]
+requires-python = ">=3.14"
+dependencies = [
+    "click>=8.3.1",
+    "click-default-group>=1.2.4",
+    "pillow>=12.1.0",
+    "rich>=14.2.0",
+]
+
+[project.scripts]
+tighty-tile = "tighty_tile.cli:cli"
+
+[build-system]
+requires = ["uv_build>=0.9.17,<0.10.0"]
+build-backend = "uv_build"
